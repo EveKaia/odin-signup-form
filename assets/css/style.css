@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('../fonts/Norse-Bold.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-control input {
+    padding: 0px;
+    width: 100%;
+}
+
+.sidebar {
+    background: darkgreen url('../images/halie-west-25xggax4bSA-unsplash.jpg') center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar p,
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar p {
+    font-size: .875rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo {
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#logo img {
+    max-width: 95px;
+}
+
+#logo h1 {
+    color: #fff;
+    font-family: 'Norse Bold';
+    font-size: 6.5rem;
+    margin: 2rem 0px;
+}
+
+.main p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.main .form-notice {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.main .form-notice a {
+    font-weight: bold;
+}
+
+form label {
+    text-transform: uppercase;
+}
